@@ -1,12 +1,32 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
+import './styles/index.css';
+import App from './pages/App';
+import Main from './pages/Main';
+import Cadastro from './pages/Cadastro';
 import reportWebVitals from './reportWebVitals';
+
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+} from "react-router-dom";
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Router>
+      <Switch>
+      <Route exact path="/">
+        <App />
+      </Route>
+      <Route exact path="/main">
+        <Main />
+      </Route>
+      <Route exact path="/cadastro">
+        <Cadastro />
+      </Route>
+      </Switch>
+    </Router>
   </React.StrictMode>,
   document.getElementById('root')
 );
