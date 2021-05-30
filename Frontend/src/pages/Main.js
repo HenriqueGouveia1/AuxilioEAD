@@ -5,9 +5,12 @@ import Barra from '../Components/Barra'
 function Main() {
     return (
         <div className="App">
-            <Barra/>
+            <Barra />
+
+            
+
         </div>
     )
 }
 
-export default Main
+export default Main;

@@ -6,7 +6,6 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  
 }
 .App-logo {
   height: 60vmin;
@@ -29,12 +28,9 @@
 }
 
 .Barra{
-  background: transparent;
+  background: #333333;
 }
 
-.TextBarra{
-  color: white;
-}
 
 .iconeBarra{
   width: 12rem;
