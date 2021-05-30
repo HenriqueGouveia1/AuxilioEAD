@@ -1,10 +1,11 @@
 import '../styles/App.css';
 import React from 'react'
+import Barra from '../Components/Barra'
 
 function Main() {
     return (
-        <div>
-            aaaaaaaaaaaaaa
+        <div className="App">
+            <Barra/>
         </div>
     )
 }

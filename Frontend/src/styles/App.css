@@ -1,19 +1,41 @@
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 80vmin;
-  pointer-events: none;
-}
-
-.App-header {
+  background: image("../AuxílioAssets/Componentes.png");
   background-color: #333333;
   min-height: 100vh;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  
+}
+.App-logo {
+  height: 60vmin;
+  pointer-events: none;
+}
+
+.Front-page {
+
+  align-items: center;
   font-size: calc(10px + 2vmin);
   color: white;
+}
+
+.Butao-init{
+  background-color: #66cc66;
+  color: white;
+  font-style: bold;
+  width: 12rem;
+  height: 4rem; 
+}
+
+.Barra{
+  background: transparent;
+}
+
+.TextBarra{
+  color: white;
+}
+
+.iconeBarra{
+  width: 12rem;
 }

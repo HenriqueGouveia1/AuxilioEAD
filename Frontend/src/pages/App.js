@@ -1,13 +1,23 @@
 import '../styles/App.css';
 
+
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={"../AuxílioAssets/Auxilio_logo.png"} className="App-logo" alt="logo" />
-        <button className="">Entre e Conheça</button>
-        <button className="">Cadastre-se</button>
-      </header>
+      <div className="container">
+        <div className="row Front-page">
+          <div className="col"> <img src={"../AuxílioAssets/LOGO_MAIN.png"} className="App-logo" alt="logo" /> </div>
+
+          <div className="col">
+            <a href="/main">
+              <button className="btn btn-success Butao-init">Conheça-nos!</button> </a>
+            
+            <a href="/cadastro">
+              <button className="mt-5 btn btn-success Butao-init">Cadastre-se!</button> </a>
+          
+          </div>
+        </div>
+      </div>
     </div>
   );
 }
