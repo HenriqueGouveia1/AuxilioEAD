@@ -1,5 +1,8 @@
-.App {
-  background: image("../AuxílioAssets/Componentes.png");
+.App{
+  background-image: url("bgTec.png");
+  background-blend-mode: overlay;
+  background-repeat: no-repeat;
+  background-position: right;
   background-color: #333333;
   min-height: 100vh;
   display: flex;
@@ -28,10 +31,103 @@
 }
 
 .Barra{
-  background: #333333;
+  background-color: #333333;
+  box-shadow: 10px 10px 5px 0px #333333;
 }
-
+.Barra .bg-dark{
+  background-color: #333333 !important;
+  
+}
 
 .iconeBarra{
   width: 12rem;
+}
+
+.Main{
+  background-color: #AAAAAA;
+  
+  background-blend-mode: overlay;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  
+}
+
+.carousel{
+  box-shadow: 10px 10px 5px 0px #333333;
+  border-radius: 9px;
+}
+
+.titulo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+}
+
+.jumbotron{
+  background-color: #C4C4C4;
+  border-radius: 9px;
+  font-weight: bold;
+  padding-top: 50px;
+  margin-top: 60px;
+  margin-bottom: 100px;
+  padding: 100px;
+  box-shadow: 10px 10px 5px 0px #333333;
+}
+
+.imageCarousel {
+  width: 800 !important;
+  height: 400 !important;
+}
+
+.carousel p, h5{
+  background-color: white;
+  
+}
+
+.footerbrabo{
+  background-color: #333333;
+  color: #AAAAAA;
+  padding-top: 3rem;
+  padding-bottom: 2rem;
+}
+
+.footer-bottom{
+  padding-top: 1.5rem;
+}
+
+.footer-link{
+  color: #AAAAAA;
+  text-decoration: none;
+}
+
+.scroll-to-top {
+  position: fixed;
+  bottom: 12px;
+  left: 50%;
+  width: 70px;
+  height: 50px;
+  border-radius: 8%;
+  background: #AAAAAA;
+  color: #333333;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  box-shadow: 10px 10px 5px 0px #333333;
+}
+.scroll-to-top .icon {
+  margin-top: 10px;
+  animation: scrollTop 0.5s alternate ease infinite;
+}
+@keyframes scrollTop {
+  from {
+      transform: translateY(2px);
+  }
+  to {
+      transform: translateY(-1px);
+  }
 }
