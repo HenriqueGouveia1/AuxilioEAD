@@ -25,7 +25,6 @@
 .Butao-init{
   background-color: #66cc66;
   color: white;
-  font-style: bold;
   width: 12rem;
   height: 4rem; 
 }
@@ -44,19 +43,18 @@
 }
 
 .Main{
+  background-image: url("bgTec.png");
+  background-blend-mode: overlay;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: right;
   background-color: #AAAAAA;
-  
   background-blend-mode: overlay;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   
-}
-
-.carousel{
-  box-shadow: 10px 10px 5px 0px #333333;
-  border-radius: 9px;
 }
 
 .titulo{
@@ -68,24 +66,33 @@
 
 .jumbotron{
   background-color: #C4C4C4;
-  border-radius: 9px;
+  border-radius: 6px;
   font-weight: bold;
-  padding-top: 50px;
+  padding-top: 40px;
   margin-top: 60px;
   margin-bottom: 100px;
-  padding: 100px;
+  padding: 80px;
   box-shadow: 10px 10px 5px 0px #333333;
-}
-
-.imageCarousel {
-  width: 800 !important;
-  height: 400 !important;
 }
 
 .carousel p, h5{
   background-color: white;
-  
+  border-radius: 6px;
 }
+
+.carousel{
+  box-shadow: 10px 10px 5px 0px #333333;
+  border-radius: 9px;
+  width: 600px;
+}
+
+.carouselTitle{
+  background-color: #C4C4C4;
+  border-radius: 4px;
+  box-shadow: 10px 10px 5px 0px #333333;
+  width: fit-content;
+}
+
 
 .footerbrabo{
   background-color: #333333;
@@ -123,6 +130,26 @@
   margin-top: 10px;
   animation: scrollTop 0.5s alternate ease infinite;
 }
+
+.card{
+  box-shadow: 10px 10px 5px 0px #333333;
+  background-color: #C4C4C4;
+}
+
+.formDiv{
+  margin-top: 90px;
+  margin-bottom: 80px;
+  
+}
+
+.formDivContent{
+  font-weight: bold;
+  padding-right: 10%;
+  padding-left: 10%;
+  padding-bottom: 10%;
+
+}
+
 @keyframes scrollTop {
   from {
       transform: translateY(2px);

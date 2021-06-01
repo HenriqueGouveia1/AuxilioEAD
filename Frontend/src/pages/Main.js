@@ -5,24 +5,24 @@ import Carousel from '../Components/Carousel'
 import Jumbo from '../Components/Jumbo'
 import Footer from '../Components/Footer'
 import ToTop from '../Components/ToTop';
+import Cards from '../Components/Cards';
 
 function Main() {
     return (
         <div className="">
             <Barra />
-            <ToTop/>
+                <ToTop />
             <div className="Main mt-5">
+                <Jumbo />
+                <Carousel />
                 
-            <Jumbo/>
-            <Jumbo/>
-            <Jumbo/>
-            <Jumbo/>
-            
-             {/* <Carousel/>
-            <Carousel/> */}
+                <div className="">
+                <Cards />
+                </div>
             
             </div>
-            <Footer/>
+           
+            <Footer />
         </div>
     )
 }
