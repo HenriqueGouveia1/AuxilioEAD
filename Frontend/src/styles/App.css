@@ -5,6 +5,7 @@
   background-position: right;
   background-color: #333333;
   min-height: 100vh;
+  min-width: 100vw;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -54,7 +55,7 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  
+  color: black;
 }
 
 .titulo{

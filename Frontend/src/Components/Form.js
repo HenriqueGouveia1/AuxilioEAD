@@ -35,7 +35,7 @@ export default function Form() {
             <div className="input-group mb-3">
                 <textarea type="text-area" className="form-control" id="basic-url" aria-describedby="basic-addon1" />
             </div>
-            <button class="btn btn-success" type="submit">Enviar!</button>
+            <button className="btn btn-success" type="submit">Enviar!</button>
         </div>
        </div>
       </div>

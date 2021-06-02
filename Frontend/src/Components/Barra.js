@@ -11,7 +11,7 @@ const Barra = () => {
                         <ul className="navbar-nav">
                             <li className="nav-item">
                                 <a className="nav-link active mr-5" href="/cadastro"> 
-                                <button class="btn btn-success" type="submit">Cadastre-se</button>
+                                <button className="btn btn-success" type="submit">Cadastre-se</button>
                                 </a>
                             </li>                           
                         </ul>

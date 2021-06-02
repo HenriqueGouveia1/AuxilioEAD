@@ -4,10 +4,10 @@ function App() {
   return (
     <div className="App">
       <div className="container">
-        <div className="row Front-page">
-          <div className="col"> <img src={"../AuxílioAssets/LOGO_MAIN.png"} className="App-logo" alt="logo" /> </div>
+        <div className="row justify-content-around Front-page">
+          <div className=" col"> <img src={"../AuxílioAssets/LOGO_MAIN.png"} className="App-logo" alt="logo" /> </div>
 
-          <div className="col">
+          <div className=" col">
             <a href="/main">
               <button className="btn btn-success Butao-init">Conheça-nos!</button> </a>
             
