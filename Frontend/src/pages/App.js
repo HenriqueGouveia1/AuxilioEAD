@@ -13,7 +13,6 @@ function App() {
             
             <a href="/cadastro">
               <button className="mt-5 btn btn-success Butao-init">Cadastre-se!</button> </a>
-          
           </div>
         </div>
       </div>
