@@ -2,7 +2,7 @@
 # AuxilioEAD
 
 Eae, esse aqui é o projeto do protótipo da plataforma do AuxilioEAD,
-produzido durante meu TCC do curdo de Ciência da computação na FPB, 
+produzido durante meu TCC do curso de Ciência da computação na FPB, 
 um projeto onde adquirimos equipamentos eletrônicos de uns e dar
 a outros que precisam e não tem para estudar, principalmente durante a pandemia.
 
