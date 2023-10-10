@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/auxilioead/static/css/main.c6e1d19c.css",
+    "main.js": "/auxilioead/static/js/main.a2e3eff5.js",
+    "static/js/787.d6474c9c.chunk.js": "/auxilioead/static/js/787.d6474c9c.chunk.js",
+    "static/media/bgTec.png": "/auxilioead/static/media/bgTec.313225cd3d3875d55a2e.png",
+    "index.html": "/auxilioead/index.html",
+    "main.c6e1d19c.css.map": "/auxilioead/static/css/main.c6e1d19c.css.map",
+    "main.a2e3eff5.js.map": "/auxilioead/static/js/main.a2e3eff5.js.map",
+    "787.d6474c9c.chunk.js.map": "/auxilioead/static/js/787.d6474c9c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c6e1d19c.css",
+    "static/js/main.a2e3eff5.js"
+  ]
+}
